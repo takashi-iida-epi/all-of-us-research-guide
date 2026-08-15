@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" citation-format="numeric" demote-non-dropping-particle="sort-only" default-locale="en-US">
+  <info>
+    <title>Simple Vancouver Numeric</title>
+    <id>http://www.zotero.org/styles/simple-vancouver-numeric</id>
+    <link href="http://www.zotero.org/styles/simple-vancouver-numeric" rel="self"/>
+    <category citation-format="numeric"/>
+    <category field="medicine"/>
+    <updated>2026-04-04T00:00:00+00:00</updated>
+  </info>
+
+  <locale xml:lang="en">
+    <terms>
+      <term name="et-al">et al.</term>
+    </terms>
+  </locale>
+
+  <macro name="author">
+    <names variable="author">
+      <name and="text" delimiter=", " initialize-with=" " name-as-sort-order="all"/>
+      <et-al min="7" use-first="6"/>
+    </names>
+  </macro>
+
+  <macro name="title">
+    <text variable="title"/>
+  </macro>
+
+  <macro name="container-title">
+    <text variable="container-title"/>
+  </macro>
+
+  <macro name="issued-year">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+
+  <macro name="volume-issue-pages">
+    <group delimiter=";">
+      <group delimiter="(">
+        <text variable="volume"/>
+        <text variable="issue" prefix=""/>
+      </group>
+      <text variable="page"/>
+    </group>
+  </macro>
+
+  <macro name="url">
+    <choose>
+      <if variable="URL">
+        <text variable="URL" prefix="Available from: "/>
+      </if>
+    </choose>
+  </macro>
+
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=",">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+  <bibliography et-al-min="7" et-al-use-first="6" second-field-align="flush">
+    <layout suffix=".">
+      <text variable="citation-number" suffix=". "/>
+      <group delimiter=". ">
+        <text macro="author"/>
+        <text macro="title"/>
+        <group delimiter=" ">
+          <text macro="container-title"/>
+          <text macro="issued-year"/>
+          <text macro="volume-issue-pages"/>
+        </group>
+        <text macro="url"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>
