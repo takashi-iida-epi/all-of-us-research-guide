@@ -4,6 +4,7 @@ author: "Takashi Iida"
 date: 2026-08-15
 bibliography: blog-ref.bib
 csl: vancouver-blog.csl
+output-file: index.html
 format:
   html:
     toc: true
