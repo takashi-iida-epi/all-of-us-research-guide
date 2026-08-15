@@ -2,6 +2,7 @@
 title: "A Practical Guide to Using All of Us Fitbit Data"
 author: "Takashi Iida"
 date: 2026-08-15
+date-format: "MMMM D, YYYY"
 bibliography: blog-ref.bib
 csl: vancouver-blog.csl
 output-file: index.html
@@ -19,6 +20,8 @@ format:
 This is an independently authored, non-peer-reviewed practical guide. It is not an official publication of the All of Us Research Program.
 :::
 
+**How to cite:**  
+Iida T. *A Practical Guide to Using All of Us Fitbit Data*. Version 1.0. Zenodo; 2026. https://doi.org/10.5281/zenodo.21959041
 
 # Objectives
 
