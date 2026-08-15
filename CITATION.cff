@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use or reference this guide, please cite it as below."
+title: "A Practical Guide to Using All of Us Fitbit Data"
+authors:
+  - family-names: "Iida"
+    given-names: "Takashi"
+version: "1.0"
+date-released: 2026-08-15
+doi: 10.5281/zenodo.21959041
+url: https://takashi-iida-epi.github.io/all-of-us-research-guide/

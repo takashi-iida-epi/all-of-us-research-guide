@@ -1,8 +1,12 @@
-# All of Us Research Guide
+# A Practical Guide to Using All of Us Fitbit Data
 
-A practical guide to working with Fitbit data in the All of Us Research Program.
+An independently authored, non-peer-reviewed practical guide to using Fitbit data in the All of Us Research Program.
 
-**Read the article:**  
+**Read the guide:**  
 https://takashi-iida-epi.github.io/all-of-us-research-guide/
 
-Author: Takashi Iida
+**DOI:**  
+https://doi.org/10.5281/zenodo.21959041
+
+**Citation:**  
+Iida T. *A Practical Guide to Using All of Us Fitbit Data*. Version 1.0. Zenodo; 2026.
